@@ -1,0 +1,42 @@
+/* Write your CSS here */
+.repo-item {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f8f8ff;
+  padding: 3%;
+  border-radius: 16px;
+  margin: 2%;
+}
+.avatar-image {
+  width: 60%;
+}
+.repo-heading {
+  font-family: 'Roboto';
+  color: #e73959;
+  font-size: 28px;
+  margin-top: 5%;
+  margin-bottom: 0px;
+}
+.stats-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 0px;
+  width: 85%;
+}
+.stats-icon {
+  width: 12%;
+  margin-right: 4%;
+}
+.stats-para {
+  font-family: 'Roboto';
+  color: #1e293b;
+  font-size: 18px;
+}
+@media screen and (min-width: 768px) {
+  .repo-item {
+    width: 29%;
+  }
+}
